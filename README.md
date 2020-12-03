@@ -2,7 +2,7 @@
 
 ```
 module "db" {
-source = "./class7"
+source = "ortacu/rds-cluster/aws"
 region = "us-east-2"
 subnet_ids = [
 "subnet-xxxxxxxxx", 
